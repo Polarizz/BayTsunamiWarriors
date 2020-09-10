@@ -241,6 +241,7 @@ section {
     .list-content {
         display: flex;
         flex-direction: column;
+        opacity: 1;
     }
 
     .event-info p {
