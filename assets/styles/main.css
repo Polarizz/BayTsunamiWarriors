@@ -75,27 +75,23 @@ section {
 
 .banner {
     display: flex;
-    flex-direction: row;
-    width: 950px;
-    justify-content: flex-end;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .banner img {
-    position: absolute;
-    width: 450px;
-    transform: rotate(15deg);
+    width: 30px;
 }
 
 .title {
     font-size: 10em;
     font-weight: 600;
-    display: flex;
-    flex-direction: column;
     user-select: none;
+    margin-bottom: 50px;
 }
 
 .text {
-    margin-bottom: 100px;
+    margin-bottom: 75px;
 }
 
 .text .container {
@@ -204,4 +200,68 @@ section {
     height: 900px;
     align-items: center;
     justify-content: center;
+}
+
+@media only screen and (max-width: 1050px) {
+    .container {
+        width: 800px;
+    }
+
+    .title {
+        font-size: 15vw;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .container {
+        width: 90%;
+    }
+
+    .side-title {
+        margin-bottom: 25px;
+    }
+
+    .text .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text p {
+        width: 100%;
+    }
+
+    .list {
+        height: 100%;
+    }
+
+    .list .container {
+        margin: 75px 0;
+    }
+
+    .list-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .event-info p {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    h1 {
+        font-size: 17vw;
+    }
+
+    .visual img {
+        width: 100%;
+    }
+
+    .visual2 img {
+        width: 100%;
+    }
+
+    .bottom h1 {
+        font-size: 15vw;
+    }
 }
