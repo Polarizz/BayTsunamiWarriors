@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="/assets/styles/main.css">
     <link rel="stylesheet" href="/assets/styles/style.css">
     <script src="/assets/scripts/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <meta name="apple-mobile-web-app-title" content="Bay Tsunami Warriors">
 
@@ -69,7 +70,7 @@
         <div class="container">
             <h1>Past events</h1>
 
-            <div class="visual">
+            <div class="visual" data-aos="zoom-in-up" data-aos-duration="1600">
                 <img src="/assets/images/placeholder1.png">
                 <h2>Event name</h2>
                 <div class="more">
@@ -78,7 +79,7 @@
                 </div>  
             </div>
 
-            <div class="visual2">
+            <div class="visual2" data-aos="zoom-in-up" data-aos-duration="1600">
                 <img src="/assets/images/placeholder2.png">
                 <h2>Event name</h2>
                 <div class="more">
@@ -87,7 +88,7 @@
                 </div>  
             </div>
 
-            <div class="visual">
+            <div class="visual" data-aos="zoom-in-up" data-aos-duration="1600">
                 <img src="/assets/images/placeholder2.png">
                 <h2>Event name</h2>
                 <div class="more">
@@ -141,6 +142,12 @@
         <h1>Wanna<br>join us?</h1>
     </section>
 
+    <script>
+        AOS.init({
+            duration: 1000,
+            delay: 0
+        });
+      </script>
 </body>
 
 </html>

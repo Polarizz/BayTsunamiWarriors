@@ -254,6 +254,12 @@ section {
         font-size: 17vw;
     }
 
+    .header {
+        margin-top: 7vw;
+        margin-left: 7vw;
+        font-size: 3vw;
+    }
+
     .visual img {
         width: 100%;
     }
