@@ -60,16 +60,34 @@ section {
     justify-content: center;
 }
 
+.header {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    margin-top: 50px;
+    margin-left: 50px;
+
+}
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    width: 950px;
+    justify-content: flex-end;
+}
+
+.banner img {
+    position: absolute;
+    width: 450px;
+    transform: rotate(15deg);
+}
+
 .title {
     font-size: 10em;
     font-weight: 600;
     display: flex;
     flex-direction: column;
-}
-
-.hero img {
-    width: 30px;
-    margin-top: 50px;
+    user-select: none;
 }
 
 .text {
@@ -88,14 +106,28 @@ section {
     margin-bottom: 150px;
 }
 
+.past-events h1 {
+    margin-bottom: 100px;
+}
+
+.past-events h2 {
+    margin-top: 10px;
+}
+
 .stack {
     display: flex;
     flex-direction: column;
 }
 
+.visual {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 50px;
+}
+
 .visual img {
     width: 500px;
-    margin-bottom: 10px;
 }
 
 .visual h2 {
@@ -113,13 +145,20 @@ section {
     margin-left: 5px;
 }
 
+.visual2 {
+    margin-bottom: 50px;
+}
+
 .visual2 img {
     width: 350px;
-    margin-bottom: 10px;
 }
 
 .visual2 h2 {
     margin-bottom: 5px;
+}
+
+.visual3 {
+    margin-left: 500px;
 }
 
 .list {
@@ -128,7 +167,7 @@ section {
     background-color: #000000;
     color: #f7f7f7;
     width: 100%;
-    height: 900px;
+    height: 1000px;
     align-items: center;
     justify-content: center;
 }
@@ -162,4 +201,65 @@ section {
     height: 900px;
     align-items: center;
     justify-content: center;
+}
+
+@media only screen and (max-width: 1050px) {
+    section {
+        width: 100%;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .title {
+        font-size: 15vw;
+    }
+
+    .banner {
+        justify-content: center;
+    }
+
+    .banner img {
+        width: 45vw;
+    }
+
+    h1 {
+        font-size: 6em;
+    }
+    
+    h2 {
+        font-size: 2em;
+    }
+    
+    h3 {
+        font-size: 1.5em;
+    }
+    
+    h4 {
+        font-size: 1.3em;
+    }
+    
+    p {
+        font-size: 1.3em;
+    }
+
+    .text {
+        flex-direction: column;
+        align-items: center;
+        justify-items: flex-start;
+    }
+
+    .list {
+        height: 150%;
+    }
+
+    .side-title {
+        margin-bottom: 20px;
+    }
+
+    .list-content {
+        display: flex;
+        flex-direction: column;
+    }
 }
