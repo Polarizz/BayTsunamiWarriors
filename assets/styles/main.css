@@ -84,10 +84,22 @@ section {
 }
 
 .title {
+    display: flex;
+    flex-direction: row;
     font-size: 10em;
     font-weight: 600;
     user-select: none;
     margin-bottom: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.title img {
+    width: 450px;
+    z-index: -10;
+    margin-left: -450px;
+    transform: rotate(15deg);
+    opacity: 0.5;
 }
 
 .text {
@@ -215,6 +227,11 @@ section {
 @media only screen and (max-width: 850px) {
     .container {
         width: 90%;
+    }
+
+    .title img {
+        width: 50vw;
+        margin-left: -50vw;
     }
 
     .side-title {
