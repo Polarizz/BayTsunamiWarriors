@@ -4,6 +4,9 @@ A website containing information and events regarding the Dragon Boat team - Bay
 ## Usage
 Access the site using (https://baytsunamiwarriors.now.sh/)
 
+## Update
+Finished home page layout and mobile support, prepare for links and content. 
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
