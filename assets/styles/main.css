@@ -330,7 +330,7 @@ video {
     }
 
     .slogan {
-        font-size: 22vh;
+        font-size: 20vh;
     }
 
     .title {
@@ -339,5 +339,28 @@ video {
 
     .title img {
         width: 8vh;
+    }
+}
+
+@media only screen and (max-height: 675px) and (max-width: 1050px) {
+    .slogan {
+        font-size: 7vw;
+        margin-bottom: 25px;
+    }
+
+    .title {
+        font-size: 3vw;
+    }
+
+    .title img {
+        width: 3vw;
+    }
+
+    .banner {
+        display: flex;
+        flex-direction: column;
+        align-items: initial;
+        justify-content: center;
+        width: 100%;
     }
 }
