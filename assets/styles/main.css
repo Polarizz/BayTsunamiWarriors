@@ -113,6 +113,10 @@ video {
    margin-bottom: 100px;
 }
  
+.imageblock img {
+    width: 100%;
+}
+
 iframe {
    z-index: 1;
    width: 100%;
