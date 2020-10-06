@@ -112,6 +112,10 @@ video {
    align-items: center;
    margin-bottom: 100px;
 }
+
+.imageblock {
+   margin-bottom: 100px;
+}
  
 .imageblock img {
     width: 100%;
@@ -178,6 +182,15 @@ iframe {
 .text p {
    width: 600px;
    margin-bottom: 35px;
+}
+
+.mainbody {
+   display: flex;
+   flex-direction: column;
+}
+
+.mainbody p {
+   margin: 35px 0px;
 }
  
 .past-events {
@@ -277,6 +290,30 @@ iframe {
 .event-info p {
    width: 550px;
 }
+
+.buttonsection {
+   display: flex;
+   flex-direction: column;
+   align-items: initial;
+   width: 900px;
+   margin: 75px 0px;
+   transition: all 0.75s cubic-bezier(.19,1,.22,1);
+   opacity: 100%;
+   cursor: pointer;
+}
+
+.buttonsection:hover {
+   opacity: 0.25;
+}
+
+.buttonsection h2 {
+   margin-bottom: 10px;
+}
+
+.bannerbutton {
+   width: 100vw;
+   background-color: #f0f0f0;
+}
  
 .bottom {
    height: 900px;
@@ -304,6 +341,10 @@ iframe {
  
    .slogan {
        margin-bottom: 50px;
+   }
+
+   .buttonsection {
+      width: 800px;
    }
 }
  
@@ -341,6 +382,10 @@ iframe {
  
    .event-info p {
        width: 100%;
+   }
+
+   .buttonsection {
+      width: 90%;
    }
 }
  
