@@ -320,6 +320,16 @@ iframe {
    align-items: center;
    justify-content: center;
 }
+
+.bottom h1 {
+   opacity: 1;
+   transition: all 0.75s cubic-bezier(.19,1,.22,1);
+   cursor: pointer;
+}
+
+.bottom h1:hover {
+   opacity: 0.25;
+}
  
 @media only screen and (max-width: 1050px) {
    .container {
