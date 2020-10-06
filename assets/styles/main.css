@@ -429,6 +429,10 @@ iframe {
    .visual2 img {
        width: 100%;
    }
+
+   .buttonsection h1 {
+      font-size: 15vw;
+  }
  
    .bottom h1 {
        font-size: 15vw;
